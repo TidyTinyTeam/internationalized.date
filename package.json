@@ -1,0 +1,32 @@
+{
+  "name": "@tidytiny/date",
+  "version": "1.0.0",
+  "description": "Internationalized calendar, date, and time manipulation utilities",
+  "license": "Apache-2.0",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "exports": {
+    "types": "./dist/types.d.ts",
+    "import": "./dist/import.mjs",
+    "require": "./dist/main.js"
+  },
+  "scripts": {
+    "release": "npm publish --access public"
+  },
+  "types": "dist/types.d.ts",
+  "source": "src/index.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TidyTinyTeam/internationalized.date"
+  },
+  "dependencies": {
+    "@swc/helpers": "^0.5.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
